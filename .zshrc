@@ -25,11 +25,11 @@ setopt SHARE_HISTORY
 export BUN_INSTALL="$HOME/.bun"
 export PATH="$BUN_INSTALL/bin:$PATH"
 
-eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
+#eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 export PATH=$PATH:/home/ayoub/Documents/flutter_linux_3.22.2-stable/flutter/bin
 #export PATH=$JAVA_HOME/bin:$PATH
-#eval "$(starship init zsh)"
-eval "$(oh-my-posh init zsh)"
+eval "$(starship init zsh)"
+#eval "$(oh-my-posh init zsh)"
 
 export JAVA_HOME=/usr/lib/jvm/jdk-17-oracle-x64
 export PATH=$JAVA_HOME/bin:$PATH
@@ -48,4 +48,6 @@ export PATH=$HOME/.local/bin:$PATH
 
 export PATH="$HOME/.cargo/env:$PATH"
 export PKG_CONFIG_PATH=/usr/local/lib/pkgconfig:/usr/lib/pkgconfig
-eval "$(oh-my-posh init zsh --config ~/takuya.omp.json)"
+#eval "$(oh-my-posh init zsh --config ~/takuya.omp.json)"
+
+
